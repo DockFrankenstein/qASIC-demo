@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Input
   m_EditorClassIdentifier: 
   Preset:
-    SavePath: qASIC/Input.txt
+    SavePath: qASIC demo/Input.txt
   _keys:
   - Up
   - Down
