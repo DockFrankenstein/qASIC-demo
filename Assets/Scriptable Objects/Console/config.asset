@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 569f2b6a606c9ec4b882a30ffe6a32e1, type: 3}
+  m_Name: config
+  m_EditorClassIdentifier: 
+  ColorTheme: {fileID: 11400000, guid: 6fbcb3fb47de5e24bab72d5fd3648429, type: 2}
+  ShowThankYouMessage: 1
+  LogConfigAssigment: 1
+  LogScene: 1
+  ClearCommand: 1
+  EchoCommand: 1
+  ExitCommand: 1
+  HelpCommand: 1
+  InputCommand: 1
+  OptionCommand: 1
+  SceneCommand: 1
+  LogToUnity: 0
+  LogUnityErrorsToConsole: 1
+  LogUnityAssertsToConsole: 1
+  LogUnityExceptionsToConsole: 1
+  LogUnityWarningsToConsole: 1
+  LogUnityMessagesToConsole: 1
+  ShowDetailedHelp: 1
+  UsePageCommandLimit: 1
+  PageCommandLimit: 5

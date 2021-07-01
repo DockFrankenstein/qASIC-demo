@@ -11,11 +11,12 @@ namespace qASIC.Demo
 
         public float Speed = 6f;
 
+        public static float SpeedMultiplier = 1f;
+
 		Rigidbody2D rb;
 
         private void Awake()
         {
-            Cursor.lockState = CursorLockMode.Locked;
             rb = GetComponent<Rigidbody2D>();
         }
 
@@ -27,7 +28,7 @@ namespace qASIC.Demo
                 return;
             }
 
-            rb.velocity = new Vector2(InputManager.GetAxis("Right", "Left"), InputManager.GetAxis("Up", "Down")) * Speed;
+            rb.velocity = new Vector2(InputManager.GetAxis("Right", "Left"), InputManager.GetAxis("Up", "Down")) * Speed * SpeedMultiplier;
             InfoDisplayer.DisplayValue("pos", VectorText.ToText(new Vector2(Mathf.Round(transform.position.x), Mathf.Round(transform.position.y))));
         }
 
