@@ -53,7 +53,7 @@ namespace qASIC.InputManagement
                 if (settings[i].StartsWith("#")) continue;
                 string[] values = settings[i].Split(':');
                 if (values.Length != 2) continue;
-                if (GlobalKeys.Presets.ContainsKey(values[0]) && System.Enum.TryParse(values[1], out KeyCode result)) { GlobalKeys.Presets[values[0]] = result; }
+                if (GlobalKeys.Presets.ContainsKey(values[0]) && System.Enum.TryParse(values[1], out KeyCode result)) GlobalKeys.Presets[values[0]] = result;
             }
         }
 
