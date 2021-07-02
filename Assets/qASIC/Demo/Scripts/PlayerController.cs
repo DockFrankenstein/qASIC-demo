@@ -2,26 +2,33 @@ using qASIC.InputManagement;
 using UnityEngine;
 using qASIC.Displayer;
 using qASIC.Demo.Dialogue;
+using qASIC.Demo.ColorZones;
 
 namespace qASIC.Demo
 {
 	public class PlayerController : MonoBehaviour
 	{
         public static bool Freeze = false;
+        public static float SpeedMultiplier { get; set; } = 1f;
 
         public float Speed = 6f;
-
-        public static float SpeedMultiplier = 1f;
+        public bool LockCursor = true;
 
 		Rigidbody2D rb;
+        SpriteRenderer spriteRenderer;
 
         private void Awake()
         {
+            if (LockCursor) Cursor.lockState = CursorLockMode.Locked;
             rb = GetComponent<Rigidbody2D>();
+            spriteRenderer = GetComponent<SpriteRenderer>();
         }
 
         private void Update()
         {
+            if (ColorZoneManager.singleton != null && spriteRenderer != null)
+                spriteRenderer.color = ColorZoneManager.singleton.current.playerColor;
+
             if (Freeze)
             {
                 rb.velocity = Vector2.zero;

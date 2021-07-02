@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f3c7752be8fa6cd478525d188d30c81e, type: 3}
-  m_Name: theme
+  m_Name: console theme
   m_EditorClassIdentifier: 
   DefaultColor: {r: 1, g: 1, b: 1, a: 1}
   WarningColor: {r: 1, g: 1, b: 0, a: 1}
@@ -32,3 +32,5 @@ MonoBehaviour:
     color: {r: 1, g: 0.74509805, b: 0.42745098, a: 1}
   - colorName: ai
     color: {r: 0.7607843, g: 0.21176471, b: 0.08627451, a: 1}
+  - colorName: gun
+    color: {r: 0, g: 0.6862745, b: 1, a: 1}

@@ -223,7 +223,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 5b428efc61bac3342a096fb23aa065d3, type: 3}
-  m_Color: {r: 0, g: 0.5921569, b: 0.9019608, a: 1}
+  m_Color: {r: 0, g: 0.7019608, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -445,7 +445,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 5b428efc61bac3342a096fb23aa065d3, type: 3}
-  m_Color: {r: 0, g: 0.5921569, b: 0.9019608, a: 1}
+  m_Color: {r: 0, g: 0.7019608, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -621,13 +621,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70f1563c7535257419989f446f2c34c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Toggable: {fileID: 454791434}
+  text: {fileID: 454791435}
   dialogue:
   - qASIC is a simple collection of tools for quickly creating games in Unity.
   - It comes with a lot of basic features that can make your game more accessible
     to others and help you debug faster and easier.
   - "This project is just a showcase of all features included, but it\u2019s only
     scratching the surface."
+  colorZoneIndex: 0
 --- !u!61 &123078510
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -774,12 +775,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70f1563c7535257419989f446f2c34c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Toggable: {fileID: 1987375509}
+  text: {fileID: 1987375510}
   dialogue:
   - Info Displayer is accessible through the F3 key.
   - 'It can show you many values such as: framerate, specs and version.'
   - You can also view player's position that has been added to this demo with one
     line of code.
+  colorZoneIndex: 2
 --- !u!61 &130463445
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1352,7 +1354,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 5b428efc61bac3342a096fb23aa065d3, type: 3}
-  m_Color: {r: 0, g: 0.5921569, b: 0.9019608, a: 1}
+  m_Color: {r: 0, g: 0.7019608, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1462,7 +1464,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 5b428efc61bac3342a096fb23aa065d3, type: 3}
-  m_Color: {r: 0, g: 0.5921569, b: 0.9019608, a: 1}
+  m_Color: {r: 0, g: 0.7019608, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1821,7 +1823,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 5b428efc61bac3342a096fb23aa065d3, type: 3}
-  m_Color: {r: 0, g: 0.5921569, b: 0.9019608, a: 1}
+  m_Color: {r: 0, g: 0.7019608, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2776,7 +2778,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 5b428efc61bac3342a096fb23aa065d3, type: 3}
-  m_Color: {r: 0, g: 0.5921569, b: 0.9019608, a: 1}
+  m_Color: {r: 0, g: 0.7019608, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -3058,8 +3060,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
-  m_fontSizeBase: 30
+  m_fontSize: 36
+  m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -3639,7 +3641,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 5b428efc61bac3342a096fb23aa065d3, type: 3}
-  m_Color: {r: 0, g: 0.5921569, b: 0.9019608, a: 1}
+  m_Color: {r: 0, g: 0.7019608, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -3801,7 +3803,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 5b428efc61bac3342a096fb23aa065d3, type: 3}
-  m_Color: {r: 0, g: 0.5921569, b: 0.9019608, a: 1}
+  m_Color: {r: 0, g: 0.7019608, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -4041,10 +4043,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -4105,13 +4107,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70f1563c7535257419989f446f2c34c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Toggable: {fileID: 1109709992}
+  text: {fileID: 1109709993}
   dialogue:
   - There are a lot of simple things in menus that take up time to make.
   - "That\u2019s why in qASIC there\u2019s a lot of solutions for that."
   - For quickly making a pause menu you can use the Pause Controller with a Toggler.
   - It can pause audio, stop time and unlock your cursor automatically.
   - There are also scripts for closing the application and loading a scene.
+  colorZoneIndex: 0
 --- !u!61 &419069960
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4273,8 +4276,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4280361249
+  m_fontColor: {r: 0.12941177, g: 0.12941177, b: 0.12941177, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -4397,6 +4400,99 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 1.5}
   m_SizeDelta: {x: 5, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &473779445
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 473779447}
+  - component: {fileID: 473779446}
+  m_Layer: 0
+  m_Name: Color zones controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &473779446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 473779445}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0ed774824852d148a4576d9bf1bcf31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colorZones:
+  - backgroundColorMain: {r: 1, g: 1, b: 1, a: 1}
+    backgroundColorSecondary: {r: 0.9372549, g: 0.98039216, b: 1, a: 1}
+    wallColor: {r: 0, g: 0.7019608, b: 1, a: 1}
+    playerColor: {r: 0.12941177, g: 0.12941177, b: 0.12941177, a: 1}
+    interactableColor: {r: 0.8627451, g: 0.8666667, b: 0.88235295, a: 1}
+    textColor: {r: 0, g: 0, b: 0, a: 1}
+  - backgroundColorMain: {r: 1, g: 1, b: 1, a: 1}
+    backgroundColorSecondary: {r: 0.9, g: 0.9781065, b: 1, a: 1}
+    wallColor: {r: 0, g: 0.5176471, b: 0.6627451, a: 1}
+    playerColor: {r: 0.12941177, g: 0.12941177, b: 0.12941177, a: 1}
+    interactableColor: {r: 0.8627451, g: 0.8666667, b: 0.88235295, a: 1}
+    textColor: {r: 0, g: 0, b: 0, a: 1}
+  - backgroundColorMain: {r: 1, g: 1, b: 1, a: 1}
+    backgroundColorSecondary: {r: 0.9283019, g: 1, b: 0.9462264, a: 1}
+    wallColor: {r: 0, g: 0.78431374, b: 0.19607843, a: 1}
+    playerColor: {r: 0.12941177, g: 0.12941177, b: 0.12941177, a: 1}
+    interactableColor: {r: 0.8627451, g: 0.8666667, b: 0.88235295, a: 1}
+    textColor: {r: 0, g: 0, b: 0, a: 1}
+  - backgroundColorMain: {r: 1, g: 1, b: 1, a: 1}
+    backgroundColorSecondary: {r: 0.93773586, g: 0.9565372, b: 1, a: 1}
+    wallColor: {r: 0, g: 0.3019608, b: 1, a: 1}
+    playerColor: {r: 0.12941177, g: 0.12941177, b: 0.12941177, a: 1}
+    interactableColor: {r: 0.8627451, g: 0.8666667, b: 0.88235295, a: 1}
+    textColor: {r: 0, g: 0, b: 0, a: 1}
+  - backgroundColorMain: {r: 1, g: 1, b: 1, a: 1}
+    backgroundColorSecondary: {r: 1, g: 0.95495284, b: 0.94716984, a: 1}
+    wallColor: {r: 0.8784314, g: 0.12941177, b: 0, a: 1}
+    playerColor: {r: 0.12941177, g: 0.12941177, b: 0.12941177, a: 1}
+    interactableColor: {r: 0.8627451, g: 0.8666667, b: 0.88235295, a: 1}
+    textColor: {r: 0, g: 0, b: 0, a: 1}
+  - backgroundColorMain: {r: 1, g: 1, b: 1, a: 1}
+    backgroundColorSecondary: {r: 1, g: 0.93773586, b: 0.96899, a: 1}
+    wallColor: {r: 1, g: 0, b: 0.5019608, a: 1}
+    playerColor: {r: 0.12941177, g: 0.12941177, b: 0.12941177, a: 1}
+    interactableColor: {r: 0.8627451, g: 0.8666667, b: 0.88235295, a: 1}
+    textColor: {r: 0, g: 0, b: 0, a: 1}
+  - backgroundColorMain: {r: 0.12941177, g: 0.12941177, b: 0.12941177, a: 1}
+    backgroundColorSecondary: {r: 0.1792453, g: 0.1792453, b: 0.1792453, a: 1}
+    wallColor: {r: 1, g: 0.92156863, b: 0, a: 1}
+    playerColor: {r: 0.8627451, g: 0.8666667, b: 0.88235295, a: 1}
+    interactableColor: {r: 0.25882354, g: 0.25882354, b: 0.25882354, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+  current:
+    backgroundColorMain: {r: 1, g: 1, b: 1, a: 1}
+    backgroundColorSecondary: {r: 0.9372549, g: 0.98039216, b: 1, a: 1}
+    wallColor: {r: 0, g: 0.7019608, b: 1, a: 1}
+    playerColor: {r: 0.12941177, g: 0.12941177, b: 0.12941177, a: 1}
+    interactableColor: {r: 0.8627451, g: 0.8666667, b: 0.88235295, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+--- !u!4 &473779447
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 473779445}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 20
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &474092244
 GameObject:
   m_ObjectHideFlags: 0
@@ -4583,7 +4679,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 5b428efc61bac3342a096fb23aa065d3, type: 3}
-  m_Color: {r: 0, g: 0.5921569, b: 0.9019608, a: 1}
+  m_Color: {r: 0, g: 0.7019608, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -4829,7 +4925,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 5b428efc61bac3342a096fb23aa065d3, type: 3}
-  m_Color: {r: 0, g: 0.5921569, b: 0.9019608, a: 1}
+  m_Color: {r: 0, g: 0.7019608, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -5186,7 +5282,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColor: {r: 0.12941177, g: 0.12941177, b: 0.12941177, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -5409,7 +5505,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 5b428efc61bac3342a096fb23aa065d3, type: 3}
-  m_Color: {r: 0, g: 0.5921569, b: 0.9019608, a: 1}
+  m_Color: {r: 0, g: 0.7019608, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -5519,7 +5615,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 5b428efc61bac3342a096fb23aa065d3, type: 3}
-  m_Color: {r: 0, g: 0.5921569, b: 0.9019608, a: 1}
+  m_Color: {r: 0, g: 0.7019608, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -5850,7 +5946,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 5b428efc61bac3342a096fb23aa065d3, type: 3}
-  m_Color: {r: 0, g: 0.5921569, b: 0.9019608, a: 1}
+  m_Color: {r: 0, g: 0.7019608, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -6036,7 +6132,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 5b428efc61bac3342a096fb23aa065d3, type: 3}
-  m_Color: {r: 0, g: 0.5921569, b: 0.9019608, a: 1}
+  m_Color: {r: 0, g: 0.7019608, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -6146,7 +6242,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 5b428efc61bac3342a096fb23aa065d3, type: 3}
-  m_Color: {r: 0, g: 0.5921569, b: 0.9019608, a: 1}
+  m_Color: {r: 0, g: 0.7019608, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -6280,7 +6376,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColor: {r: 0.12941177, g: 0.12941177, b: 0.12941177, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -6503,7 +6599,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 5b428efc61bac3342a096fb23aa065d3, type: 3}
-  m_Color: {r: 0, g: 0.5921569, b: 0.9019608, a: 1}
+  m_Color: {r: 0, g: 0.7019608, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -6747,7 +6843,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 5b428efc61bac3342a096fb23aa065d3, type: 3}
-  m_Color: {r: 0, g: 0.5921569, b: 0.9019608, a: 1}
+  m_Color: {r: 0, g: 0.7019608, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -6867,12 +6963,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70f1563c7535257419989f446f2c34c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Toggable: {fileID: 815347605}
+  text: {fileID: 815347606}
   dialogue:
   - By using the Audio Manager you can play clips globally and control their playback.
   - That means that you can easily pause all audio in the scene.
   - "Even if you don\u2019t want to use the manager, you can attach controllers to
     your sources so that they can be affected too."
+  colorZoneIndex: 5
 --- !u!61 &726389858
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7087,7 +7184,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 5b428efc61bac3342a096fb23aa065d3, type: 3}
-  m_Color: {r: 0, g: 0.5921569, b: 0.9019608, a: 1}
+  m_Color: {r: 0, g: 0.7019608, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -7253,7 +7350,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColor: {r: 0.12941177, g: 0.12941177, b: 0.12941177, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -7483,10 +7580,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70f1563c7535257419989f446f2c34c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Toggable: {fileID: 1784801635}
+  text: {fileID: 1784801636}
   dialogue:
   - qASIC also comes with a lot of basic features.
   - You can view them right here.
+  colorZoneIndex: 0
 --- !u!61 &815061084
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7649,7 +7747,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColor: {r: 0.12941177, g: 0.12941177, b: 0.12941177, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -7872,7 +7970,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 5b428efc61bac3342a096fb23aa065d3, type: 3}
-  m_Color: {r: 0, g: 0.5921569, b: 0.9019608, a: 1}
+  m_Color: {r: 0, g: 0.7019608, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -8152,7 +8250,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 5b428efc61bac3342a096fb23aa065d3, type: 3}
-  m_Color: {r: 0, g: 0.5921569, b: 0.9019608, a: 1}
+  m_Color: {r: 0, g: 0.7019608, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -8348,7 +8446,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 5b428efc61bac3342a096fb23aa065d3, type: 3}
-  m_Color: {r: 0, g: 0.5921569, b: 0.9019608, a: 1}
+  m_Color: {r: 0, g: 0.7019608, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -8544,8 +8642,6 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  startColor: {r: 0.20784314, g: 0.23137255, b: 0.28235295, a: 1}
-  endColor: {r: 0.18431373, g: 0.21176471, b: 0.2509804, a: 1}
   duration: 5
 --- !u!81 &952158673
 AudioListener:
@@ -8565,7 +8661,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.20494746, g: 0.22895949, b: 0.27849206, a: 1}
+  m_BackGroundColor: {r: 1, g: 1, b: 1, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -8796,7 +8892,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColor: {r: 0.12941177, g: 0.12941177, b: 0.12941177, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -9133,7 +9229,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColor: {r: 0.12941177, g: 0.12941177, b: 0.12941177, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -9288,12 +9384,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70f1563c7535257419989f446f2c34c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Toggable: {fileID: 2043545873}
+  text: {fileID: 2043545874}
   dialogue:
   - By pausing the game with escape you can go to the options menu, where you can
     remap buttons.
   - This helps players from around the world play your game on different keyboard
     layouts.
+  colorZoneIndex: 4
 --- !u!61 &1139879847
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9655,7 +9752,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70f1563c7535257419989f446f2c34c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Toggable: {fileID: 1061035502}
+  text: {fileID: 1061035503}
   dialogue:
   - The File Manager lets you easily save, load and manage files in your games.
   - It supports binary, JSON and FileWriter.
@@ -9663,6 +9760,7 @@ MonoBehaviour:
     files."
   - These files are easily readable and editable.
   - This is useful for servers and user preferences.
+  colorZoneIndex: 6
 --- !u!61 &1161212110
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9809,12 +9907,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70f1563c7535257419989f446f2c34c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Toggable: {fileID: 666358281}
+  text: {fileID: 666358282}
   dialogue:
   - Console is accessible through the back quote key.
   - This can be changed in the pause menu.
   - You can view logs and run commands.
   - By running the help command you can view the list of all built in commands.
+  colorZoneIndex: 1
 --- !u!61 &1189665950
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10111,7 +10210,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1277898530
 Transform:
   m_ObjectHideFlags: 0
@@ -10168,7 +10267,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -2413806693520163455, guid: 86a937a8f54d8c3409163358dda7afa3, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.12941177, g: 0.12941177, b: 0.12941177, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -10412,7 +10511,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 5b428efc61bac3342a096fb23aa065d3, type: 3}
-  m_Color: {r: 0, g: 0.5921569, b: 0.9019608, a: 1}
+  m_Color: {r: 0, g: 0.7019608, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -10522,7 +10621,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 5b428efc61bac3342a096fb23aa065d3, type: 3}
-  m_Color: {r: 0, g: 0.5921569, b: 0.9019608, a: 1}
+  m_Color: {r: 0, g: 0.7019608, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -10632,7 +10731,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 5b428efc61bac3342a096fb23aa065d3, type: 3}
-  m_Color: {r: 0, g: 0.5921569, b: 0.9019608, a: 1}
+  m_Color: {r: 0, g: 0.7019608, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -10742,7 +10841,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 5b428efc61bac3342a096fb23aa065d3, type: 3}
-  m_Color: {r: 0, g: 0.5921569, b: 0.9019608, a: 1}
+  m_Color: {r: 0, g: 0.7019608, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -11022,7 +11121,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 5b428efc61bac3342a096fb23aa065d3, type: 3}
-  m_Color: {r: 0, g: 0.5921569, b: 0.9019608, a: 1}
+  m_Color: {r: 0, g: 0.7019608, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -11208,6 +11307,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 6
+  LockCursor: 0
 --- !u!212 &1376857519
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11250,7 +11350,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -2413806693520163455, guid: 86a937a8f54d8c3409163358dda7afa3, type: 3}
-  m_Color: {r: 0.28235295, g: 0.49411765, b: 0.6901961, a: 1}
+  m_Color: {r: 0.12941177, g: 0.12941177, b: 0.12941177, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -11301,7 +11401,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gunAxis: {fileID: 1742302516}
-  gun: {fileID: 1277898530}
+  gun: {fileID: 1277898531}
+  hitMask:
+    serializedVersion: 2
+    m_Bits: 55
+  range: 16
+  particle: {fileID: 0}
 --- !u!1 &1388524093
 GameObject:
   m_ObjectHideFlags: 0
@@ -11402,7 +11507,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 5b428efc61bac3342a096fb23aa065d3, type: 3}
-  m_Color: {r: 0, g: 0.5921569, b: 0.9019608, a: 1}
+  m_Color: {r: 0, g: 0.7019608, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -11873,7 +11978,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 5b428efc61bac3342a096fb23aa065d3, type: 3}
-  m_Color: {r: 0, g: 0.5921569, b: 0.9019608, a: 1}
+  m_Color: {r: 0, g: 0.7019608, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -12724,7 +12829,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 5b428efc61bac3342a096fb23aa065d3, type: 3}
-  m_Color: {r: 0, g: 0.5921569, b: 0.9019608, a: 1}
+  m_Color: {r: 0, g: 0.7019608, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -13374,11 +13479,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70f1563c7535257419989f446f2c34c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Toggable: {fileID: 2039274377}
+  text: {fileID: 2039274378}
   dialogue:
   - By pausing the game with escape you can go to the options menu.
   - It uses a modular customizable system, where you use tags instead of long scripts.
   - You can even change options with the changeoption command.
+  colorZoneIndex: 3
 --- !u!61 &1696382794
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13951,7 +14057,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 5b428efc61bac3342a096fb23aa065d3, type: 3}
-  m_Color: {r: 0, g: 0.5921569, b: 0.9019608, a: 1}
+  m_Color: {r: 0, g: 0.7019608, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -14739,7 +14845,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColor: {r: 0.12941177, g: 0.12941177, b: 0.12941177, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -14962,7 +15068,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 5b428efc61bac3342a096fb23aa065d3, type: 3}
-  m_Color: {r: 0, g: 0.5921569, b: 0.9019608, a: 1}
+  m_Color: {r: 0, g: 0.7019608, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -15636,7 +15742,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 5b428efc61bac3342a096fb23aa065d3, type: 3}
-  m_Color: {r: 0, g: 0.5921569, b: 0.9019608, a: 1}
+  m_Color: {r: 0, g: 0.7019608, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -16081,7 +16187,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 5b428efc61bac3342a096fb23aa065d3, type: 3}
-  m_Color: {r: 0, g: 0.5921569, b: 0.9019608, a: 1}
+  m_Color: {r: 0, g: 0.7019608, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -16228,13 +16334,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70f1563c7535257419989f446f2c34c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Toggable: {fileID: 555518790}
+  text: {fileID: 555518791}
   dialogue:
   - To not limit you to one input system and allow accessibility every system in
     qASIC uses the Toggler.
   - The Toggler is a script that is responsible for toggling objects.
   - You can easily make the UI in your game togglable.
   - You can try it here by pressing F2.
+  colorZoneIndex: 0
 --- !u!61 &1961545560
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16618,7 +16725,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColor: {r: 0.12941177, g: 0.12941177, b: 0.12941177, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -17077,11 +17184,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70f1563c7535257419989f446f2c34c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Toggable: {fileID: 769586021}
+  text: {fileID: 769586022}
   dialogue:
   - "To show Unity\u2019s Vectors to the user more clearly you can use Vector Text."
   - This class converts them to text and vice versa in a nice looking format.
   - "You can see it in the displayer when viewing player\u2019s position."
+  colorZoneIndex: 0
 --- !u!61 &2029505662
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17244,7 +17352,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColor: {r: 0.12941177, g: 0.12941177, b: 0.12941177, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -17415,7 +17523,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColor: {r: 0.12941177, g: 0.12941177, b: 0.12941177, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -17638,7 +17746,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 5b428efc61bac3342a096fb23aa065d3, type: 3}
-  m_Color: {r: 0, g: 0.5921569, b: 0.9019608, a: 1}
+  m_Color: {r: 0, g: 0.7019608, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -17679,7 +17787,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LogLimit: 64
-  ConsoleConfig: {fileID: 11400000, guid: d853eea0daf8b124d8e793469a0177ad, type: 2}
+  ConsoleConfig: {fileID: 11400000, guid: 93144859366a1974d9203b9d3ec067b2, type: 2}
   Logs: {fileID: 1903444012}
   Input: {fileID: 1642712388}
   Scroll: {fileID: 548043582}
@@ -17726,6 +17834,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2054483456}
+  - component: {fileID: 2054483457}
   m_Layer: 0
   m_Name: Map
   m_TagString: Untagged
@@ -17781,3 +17890,15 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2054483457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2054483455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6a14cd82a6ace947beab6453b4c6fe8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

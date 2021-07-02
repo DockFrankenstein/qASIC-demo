@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 569f2b6a606c9ec4b882a30ffe6a32e1, type: 3}
-  m_Name: config
+  m_Name: console config
   m_EditorClassIdentifier: 
-  ColorTheme: {fileID: 11400000, guid: 6fbcb3fb47de5e24bab72d5fd3648429, type: 2}
+  ColorTheme: {fileID: 11400000, guid: 2320d5ae4dc0c924aafafea1dcee6227, type: 2}
   ShowThankYouMessage: 1
   LogConfigAssigment: 1
   LogScene: 1

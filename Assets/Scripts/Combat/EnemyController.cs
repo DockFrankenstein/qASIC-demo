@@ -1,4 +1,5 @@
 using UnityEngine;
+using qASIC.Demo.ColorZones;
 
 namespace qASIC.Demo
 {
@@ -11,6 +12,7 @@ namespace qASIC.Demo
         public float speed = 4f;
 
         Rigidbody2D rb;
+        SpriteRenderer spriteRenderer;
 
         float time;
 
@@ -22,11 +24,15 @@ namespace qASIC.Demo
         private void Awake()
         {
             rb = GetComponent<Rigidbody2D>();
+            spriteRenderer = GetComponent<SpriteRenderer>();
             if (rb == null) qDebug.LogError("There is no Rigidbody2D on enemy!");
         }
 
         private void Update()
         {
+            if (ColorZoneManager.singleton != null && spriteRenderer != null)
+                spriteRenderer.color = ColorZoneManager.singleton.current.playerColor;
+
             time += Time.deltaTime * (state == EnemyState.idle ? idleSpinSpeed : chasingSpinSpeed);
 
             Vector3 rotation = transform.eulerAngles;
@@ -37,6 +43,8 @@ namespace qASIC.Demo
 
         private void FixedUpdate()
         {
+            if (PlayerInstance.singleton == null) return;
+
             switch (state)
             {
                 default:
